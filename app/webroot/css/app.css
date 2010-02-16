@@ -1,0 +1,84 @@
+@import "reset.css";
+
+* {
+	line-height: 1.5;
+	font-size: 18px;
+	font-family: Georgia;
+}
+
+body {
+	background: #eeeee4;
+	padding: 50px;
+}
+
+/* Links */
+a:link, a:visited {
+	color: #D90047;
+	text-decoration: none;
+	border-bottom: 1px solid #D90047;
+}
+a:hover {
+	color: #8B0018;
+	text-decoration: none;
+	border-bottom: 1px solid #8B0018;
+}
+a:active {
+	color: #8B0018;
+	text-decoration: none;
+	border-bottom: 1px solid #8B0018;
+}
+/* /Links */
+
+
+h1{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 10px 10px 0;
+}
+
+form{
+	margin-top: 20px;
+}
+
+#UrlAddForm label {
+	clear: both;
+	display: block;
+}
+
+#UrlAddForm input[type=text] {
+	width: 400px;
+	border: 1px solid silver;
+	padding: 3px 9px;
+}
+
+#UrlAddForm .error-message {
+	color: #D90047;
+	padding-left: 10px;
+}
+
+#hits th, #hits td {
+	border-bottom: 1px dotted red;
+	padding: 5px 10px 5px 5px;
+}
+
+
+/*#navigation li {
+	list-style: none;
+	color: #000;
+	padding: 0px 25px 0px 0px;
+	font-size: 3em;
+	line-height: 1.5em;
+}
+
+#navigation li a{
+  color: #000;
+}
+
+#navigation li a:hover{
+  color: #61605c;
+}
+
+#navigation li a.active, #navigation li a:active {
+	color: #004eff;
+}
+*/
