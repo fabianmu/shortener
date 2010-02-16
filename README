@@ -3,13 +3,11 @@ cakeUrlShortener 1.0 Beta - An URL Shortener build with cakephp
 Requirements
 ============
 
-    * a running cakephp 1.2.6 installation
-
 Installation
 ============
 
    1. get the git
    2. Create a new MySQL database. Use 'utf8_unicode_ci' collation. Into this new database import the SQL dump file 
    'app/config/sql/urls.sql'.
-   3. Edit the config/database.php file with your database connection details.
-   4. Add the Folder to a cakephp installation, easiest way should be to replace the cakephp's app folder
+   3. Edit the app/config/database.php file with your database connection details.
+   4. run the application in apache (i.e. add new vhost)
