@@ -10,9 +10,5 @@
 <body>
 
 <?php echo $content_for_layout ?>
-<!--
-	TODO seperate app
-	TODO upload to GIT
--->
 </body>
 </html>

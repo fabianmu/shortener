@@ -8,3 +8,9 @@ Installation
    'app/config/sql/urls.sql'.
    3. Edit the app/config/database.php file with your database connection details.
    4. run the application in apache (i.e. add new vhost)
+
+Usage
+=====
+
+   To generate an URL with XML POST use (i.e.):
+      curl -L --header "Content-type: text/xml" -d "<url long_url='http://mylongdomain.de' />" "http://cakeshort.l/urls/add.xml"

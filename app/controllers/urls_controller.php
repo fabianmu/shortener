@@ -29,7 +29,11 @@ class UrlsController extends AppController {
 			
 			if ($this->Url->save($this->data)) {
 				$this->Session->setFlash('Your url has been saved.');
-				$this->redirect(array('action' => 'added/' .  $this->Url->field('id')));
+				if ($this->params['url']['ext'] == 'xml') {
+					$this->redirect(array('action' => 'added/' .  $this->Url->field('id') . ".xml"));
+				} else {
+					$this->redirect(array('action' => 'added/' .  $this->Url->field('id') ));
+				}
 			}
 		}
 	}
